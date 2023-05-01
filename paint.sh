@@ -1,4 +1,4 @@
-touch ./bricks/$(date +"%Y-%m-%d")
+touch ./bricks/$(date)
 git add .
 git commit -m "save"
 git push
